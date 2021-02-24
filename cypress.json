@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.google.com",
+  "chromeWebSecurity": false,
+  "integrationFolder": "cypress/tests/e2e-tests",
+  "defaultCommandTimeout": 10000,
+  "execTimeout": 10000,
+  "requestTimeout": 10000,
+  "pageLoadTimeout": 15000
+}
