@@ -24,5 +24,5 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 Cypress.Commands.add(`search`, (value) => {
-  return cy.get(`input[title="Search"]`).type(value);
+  return cy.get(`input[type="text"]`).type(value);
 });
